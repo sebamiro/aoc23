@@ -28,7 +28,7 @@ fn map_seed(seed: u64, map: &Vec<Map>) -> u64 {
 }
 
 fn find_res(seeds: Vec<u64>, maps: Vec<Vec<Map>>) -> u64 {
-    let mut i: u64 = *seeds.iter().min().unwrap();
+    let mut i: u64 = 217504920;
     loop {
         let mut x = i;
 
