@@ -32,6 +32,8 @@ impl PartialEq for Vector2 {
     }
 }
 
+fn
+
 fn move_circle(c: Vector2, circles: &Vec<Vector2>, square: &Vec<Vector2>, dir: &Vector2, limit: &Vector2) -> Vector2 {
     let mut res = Vector2{ x: c.x, y: c.y};
     loop {
